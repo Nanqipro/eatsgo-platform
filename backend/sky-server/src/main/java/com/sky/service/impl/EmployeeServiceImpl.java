@@ -86,7 +86,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
         // 设置当前记录的创建时间和修改时间
         employee.setCreateTime(LocalDateTime.now());
-        employee.setCreateTime(LocalDateTime.now());
+        employee.setUpdateTime(LocalDateTime.now());
 
         // 设置当前记录的创建人ID 和修改人ID
         // 当前登录用户的id
