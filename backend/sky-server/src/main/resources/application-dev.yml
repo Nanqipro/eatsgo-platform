@@ -9,3 +9,9 @@ sky:
     password: root123456
     # password: 8729
 
+
+  alioss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    access-key-id: 
+    access-key-secret: 
+    bucket-name: ai-platform666
