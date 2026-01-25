@@ -6,8 +6,9 @@ sky:
 #    port: 3306
     database: sky_take_out
     username: root
-    password: root123456
+#    password: root123456
 #    password: 8729
+    password: root
 
 
   alioss:
@@ -15,3 +16,9 @@ sky:
     access-key-id: 
     access-key-secret: 
     bucket-name: ai-platform666
+
+  redis:
+    host: localhost
+    post: 6379
+    #    password: 
+    database: 10
